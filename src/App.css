@@ -40,3 +40,73 @@
 .read-the-docs {
   color: #888;
 }
+
+.App {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px;
+}
+
+.starship-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.starship-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 250px;
+  background: #f4f4f4;
+}
+
+/* Initial styling */
+main {
+  padding: 16px 32px;
+}
+
+section ul {
+  padding: 0;
+  display: grid;
+  grid-gap: 16px;
+  list-style: none;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+li {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #333333;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+form * {
+  margin-right: 16px;
+}
+
+input, button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+.search-meta {
+  color: rgba(255, 255, 255, 0.5);
+}
